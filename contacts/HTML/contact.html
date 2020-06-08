@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		  <meta charset="UTF-8">
+		  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+		  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+		  
+		  <title>Derine Hotel | Contact</title>
+			<link href="styles.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<section id="contact">
+			<ul id="sidenav">
+				<li class="close"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></li>
+				<li><a href="">Home</a></li>
+				<li><a href="">Rooms & Rates</a></li>
+				<li><a href="">Facilities</a></li>
+				<li><a href="">Contact Us</a></li>
+			</ul>
+			<div class="container">
+				<div class="top">
+					<div class="navbar1" ><img onclick="openNav()"	src="./images/icon-hamburger.svg" class="img-responsive"/></div>
+					<div class="logo"><p>Derine <br> Salanza</p></div>
+					<div class="nav">
+						<ul  class="navbar">
+							<li class="close"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></li>
+							<li><a href="">Home</a></li>
+							<li><a href="">Rooms & Rates</a></li>
+							<li><a href="">Facilities</a></li>
+							<li><a href="">Contact Us</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="imgBody">
+					<img src="./images/header_background.png" class="img-responsive"/>
+				</div>
+				<div class="body">
+					<h2>CONTACT DERINE SALANZA HOTEL</h2>
+					<h3>We Can Help!</h3>
+					<div class="info">
+						<p>Derine Salanza Hotel features charming, comfortable accomodations for every social status. Stay in one of our exquisite 
+						rooms and experience an elegant home-away-from-home, complete with eco-friendly amenities and helpful staff.</p>
+						<p>For more information, contact the Derine Salanza hotel - we'd love to answer your questions, respond to comments, and 
+						hear your feedback.</p>
+					</div>
+					<div class="info2">
+						<h3>DERINE SALANZA HOTEL</h3>
+						<p>Two Motila Drive</p>
+						<p>Lagos, Nigeria.</p>
+						<p>Reservations: <span> {234}222-333-5851</span></p>
+						<p>Direct: <span> {800}342-4295</span></p>
+						<p>Fax: <span> {831}372-0620</span></p>
+						<p>Email: <span> info@derinesalanzahotel.com</span></p> 
+					</div>
+					<div class="info3">
+						<h3>ONLINE RESERVATIONS</h3>
+						<p>To check availability and rates and/or to book online, please send email to <a href="#">reservations@derinesalanzahotel.com</a>
+						or contact us via telephone directly.</p>
+						<p>View <a href="#">maps and directions</a> to Dennie Salanza hotel</p>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		
+		<script>
+			function openNav() {
+				document.getElementById("sidenav").style.width = "250px";
+				document.getElementByClassName("container").style.marginLeft = "250px";
+			}
+
+			function closeNav() {
+				document.getElementById("sidenav").style.width = "0";
+				document.getElementByClassName("container").style.marginLeft= "0";
+			}
+		</script>     
+	</body>
+</html>
