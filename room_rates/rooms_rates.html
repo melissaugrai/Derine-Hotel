@@ -1,128 +1,201 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
-<head>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- font awesome cdn -->
-    <script src="https://kit.fontawesome.com/148658ab51.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="">
-
-    <!-- bootstrap cdn -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
-
     <title>Rooms and Services</title>
-    <link href="" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="room.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <nav>
-        <div>Logo</div>
-        <ul>
-            <li> <a href="#">Home</a></li>
-            <li> <a href="#">Rooms & Rates</a></li>
-            <li> <a href="#">Facilities</a></li>
-            <li> <a href="#">Contact Us</a></li>
-        </ul>
-    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+        <a class="navbar-brand" href="#">
+            <div class="square" style="width: 80px; height: 70px; background-color: #002c5c; position: absolute; margin-top: -20px; text-align: center; font-size: 15px; color: white; font-family:'Open Sans', sans-serif; font-weight: 600; font-style: italic;"><p style="margin-top: 10px;"> Derine <br> Salanza</p></div>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarNav">
+          <ul class=" navbar-nav navbar-left ml-auto">
+            <li class="nav-item px-lg-3">
+              <a class="nav-link " href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active px-lg-3">
+              <a class="nav-link" href="#">Room and Rates</a>
+            </li>
+            <li class="nav-item px-lg-3">
+              <a class="nav-link" href="#">Facilities</a>
+            </li>
+            <li class="nav-item px-lg-3">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+    </div>
+      </nav>
+ 
 
-    <section class="section-one">
-        <h2>Explore our luxury rooms</h2>
-        <p>
-            We offer a superb collection of rooms and suites, each offering individual character and charm.
-            <br> <br>
-            Maecenas tempus justo nec eros congue congue. In eu leo vestibulum, aliquet turpis eu, vestibulum leo.
-            Integer sagittis, augue in pretium finibus, arcu velit pulvinar tellus, et posuere ligula arcu eu purus.
-            Suspendisse pharetra nunc at finibus convallis. Sed interdum sit amet diam sit amet pretium. Nam molestie
-            vitae ipsum a blandit.
-        </p>
-    </section>
-    <br><br><br>
+<section class="section-one container mt-5">
+<h2>Explore our luxury rooms</h2>
+<p>
+We offer a superb collection of rooms and suites, each offering individual character and charm.
+<br> <br>
+Maecenas tempus justo nec eros congue congue. In eu leo vestibulum, aliquet turpis eu, vestibulum leo.
+Integer sagittis, augue in pretium finibus, arcu velit pulvinar tellus, et posuere ligula arcu eu purus.
+Suspendisse pharetra nunc at finibus convallis. Sed interdum sit amet diam sit amet pretium. Nam molestie vitae ipsum a blandit.
+</p>
+</section>
+<br><br><br>
 
-    <section class="section-two">
-        <div> <img src="img/first-img.png" alt="Standard Suites" width="300px" height="300px"></div>
-        <div>
-            <h3> STANDARD SUITES</h3>
-            <p>Eco-friendly amenities and a variety of other touches welcome guests in the Standard Suites.</p>
-            <p>From</p>
-            <p> &#8358;45,ooo</p>
-            <button class="btn"> <a href="#">BOOK NOW</a></button>
+<section class="section-one container blue px-0">
+    <div class="row">
+        <div class="col col-12 col-lg-5 ml-lg-0 px-5 president text-light float-left mx-auto mb-3 mb-lg-0">
+            <div class="mt-5"> <h3>STANDARD SUITES</h3>
+                <p>Eco-friendly amenities and a variety of other touches welcome guests in the Deluxe Suites.</p>
+                <div class="btn-group ml-5 ml-lg-0" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-primary">31 <br><span style="font-size: 12px;">SIZE</span> <br>M&#x2082;</button>
+                    <button type="button" class="btn btn-primary">2 <br><span style="font-size: 12px;">MAX</span><br> Adults</button>
+                    <button type="button" class="btn btn-primary">0 <br><span style="font-size: 12px;">MAX</span><br>Children</button>  </div>
+                <p class="mt-3" style="position: absolute;">From</p>
+                <p class="mt-5" style="font-size: 25px;font-weight: bold;">&#8358;45,000</p>
+                <a href="#" class="btn btn-light ">BOOK NOW</a>
+                 </div>
         </div>
-    </section>
-    <hr><br>
-    <section class="section-three">
-        <div> <img src="img/second-img.png" alt="Double Standard Suites" width="300px" height="300px"></div>
-        <div>
-            <h3> DOUBLE STANDARD SUITES</h3>
-            <p>Eco-friendly amenities and a variety of other touches welcome guests in the Double Standard Suites.</p>
-            <p>From</p>
-            <p>&#8358;65,ooo</p>
-            <button class="btn"> <a href="#">BOOK NOW</a></button>
+        <div class="col col-12 col-lg-7 ">
+            <div class="ml-0 ml-lg-5 px-0"> <img src="img/first-img.png" class=" img-fluid float-lg-right px-0" alt="Deluxe Suites" width="100%" height="400px" style="max-width: 100%;"></div>
         </div>
-    </section>
-    <hr><br>
-    <section class="section-four">
-        <div> <img src="img/third-img.png" alt="Deluxe Suites" width="300px" height="300px"></div>
-        <div>
-            <h3> DELUXE SUITES</h3>
-            <p>Eco-friendly amenities and a variety of other touches welcome guests in the Deluxe Suites.</p>
-            <p>From</p>
-            <p>&#8358;75,ooo</p>
-            <button class="btn"> <a href="#">BOOK NOW</a></button>
+       
+    </div>
+        
+</section>
+<br>
+<section class="section-five container blue px-0">
+    <div class="row">
+        <div class="col col-12 col-lg-6">
+            <div> <img src="img/second-img.png" class="img-fluid float-left px-0 presidentIMG" alt="Double Standard Suite" width="100%" height="400px" style="max-width: 100%;"></div>
         </div>
-    </section>
-    <hr><br>
-    <section class="section-five">
-        <div> <img src="img/fourth-img.png" alt="Presidential Suites" width="300px" height="300px"></div>
-        <div>
-            <h3> PRESIDENTIAL SUITES</h3>
-            <p>Eco-friendly amenities and a variety of other touches welcome guests in the Deluxe Suites.</p>
-            <p>From</p>
-            <p>&#8358;150,ooo</p>
-            <button class="btn"> <a href="#">BOOK NOW</a></button>
+        <div class="col col-12 col-lg-5 ml-lg-0 px-5 president text-light mx-auto mb-3 mb-lg-0">
+            <div class="mt-5"> <h3>DOUBLE STANDARD SUITE</h3>
+                <p>Eco-friendly amenities and a variety of other touches welcome guests in the Deluxe Suites.</p>
+                <div class="btn-group ml-5 ml-lg-0" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-primary">31 <br><span style="font-size: 12px;">SIZE</span> <br>M&#x2082;</button>
+                    <button type="button" class="btn btn-primary">2 <br><span style="font-size: 12px;">MAX</span><br> Adults</button>
+                    <button type="button" class="btn btn-primary">0 <br><span style="font-size: 12px;">MAX</span><br>Children</button>  </div>
+                <p class="mt-3" style="position: absolute;">From</p>
+                <p class="mt-5" style="font-size: 25px;font-weight: bold;">&#8358;65,000</p>
+                <a href="#" class="btn btn-light ">BOOK NOW</a>
+                </div>
         </div>
-    </section>
-    <hr><br>
-    <footer>
-        <div class="">
-            <address class="footer1">
-                <h4> OUR ADDRESS</h4>
-                <p> Derine Salanza</p>
-                <P>Motila Drive, Lagos, Nigeria.</P>
-            </address>
-            <div class="footer1">
-                <h4>RESERVATIONS</h4>
-                <p>Telephone: (+234)222-333-5851</p>
-                <p> Email: reservation@derinesalanza.com</p>
+    </div>
+   
+</section>
+<br>
+<section class="section-one container blue px-0">
+    <div class="row">
+        <div class="col col-12 col-lg-5 ml-lg-0 px-5 president text-light float-left mx-auto mb-3 mb-lg-0">
+            <div class="mt-5"> <h3 class="">DELUXE SUITE</h3>
+                <p>Eco-friendly amenities and a variety of other touches welcome guests in the Deluxe Suites.</p>
+                <div class="btn-group ml-5 ml-lg-0" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-primary">31 <br><span style="font-size: 12px;">SIZE</span> <br>M&#x2082;</button>
+                    <button type="button" class="btn btn-primary">2 <br><span style="font-size: 12px;">MAX</span><br> Adults</button>
+                    <button type="button" class="btn btn-primary">0 <br><span style="font-size: 12px;">MAX</span><br>Children</button>  </div>
+                <p class="mt-3" style="position: absolute;">From</p>
+                <p class="mt-5" style="font-size: 25px;font-weight: bold;">&#8358;75,000</p>
+                <a href="#" class="btn btn-light ">BOOK NOW</a>
+                 </div>
+        </div>
+        <div class="col col-12 col-lg-7 ">
+            <div class="ml-0 ml-lg-5 px-0"> <img src="img/third-img.png" class=" img-fluid float-right px-0" alt="Deluxe Suites" width="100%" height="400px" style="max-width: 100%;"></div>
+        </div>
+       
+    </div>
+        
+</section>
+<br>
+<section class="section-five container blue px-0">
+    <div class="row">
+        <div class="col col-12 col-lg-6">
+            <div> <img src="img/fourth-img.png" class="img-fluid float-left px-0 presidentIMG" alt="Presidential Suites" width="100%" height="400px" style="max-width: 100%;"></div>
+        </div>
+        <div class="col col-12 col-lg-5 ml-lg-0 px-5 president text-light mx-auto mb-3 mb-lg-0">
+            <div class="mt-5"> <h3> PRESIDENTIAL SUITES</h3>
+                <p>Eco-friendly amenities and a variety of other touches welcome guests in the Deluxe Suites.</p>
+                <div class="btn-group ml-5 ml-lg-0 " role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-primary">31 <br><span style="font-size: 12px;">SIZE</span> <br>M&#x2082;</button>
+                    <button type="button" class="btn btn-primary">2 <br><span style="font-size: 12px;">MAX</span><br> Adults</button>
+                    <button type="button" class="btn btn-primary">0 <br><span style="font-size: 12px;">MAX</span><br>Children</button>  </div>
+                <p class="mt-3" style="position: absolute;">From</p>
+                <p class="mt-5" style="font-size: 25px;font-weight: bold;">&#8358;150,000</p>
+                <a href="#" class="btn btn-light ">BOOK NOW</a>
+                </div>
+        </div>
+    </div>
+   
+</section>
+<br>
+<footer class="page-footer font-small" style="background-color: #002c5c;">
+    <div class="container text-center text-md-left mt text-white" style="padding-top: 50px;">
+        <div class="row">
+            <div class="col-md-3">
+                <h6 class="text-uppercase font-weight-bold">OUR ADDRESS</h6>
+                <p>Derine Salanza <br /> Motila Drive, Lagos, Nigeria.</p>
             </div>
 
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-3">
+                <h6 class="text-uppercase font-weight-bold">RESERVATION</h6>
+                <p>Telephone: (+234) 222-333-5851 <br />
+                    Email: reservations@derinesalanza.com</p>
+            </div>
 
-            <form action="#" class="footer1">
-                <h5> SUBSCRIBE TO OUR NEWS LETTER</h5>
-                <input placeholder="Email Address..."></input>
-                <button>Submit</button>
-            </form>
+            <div class="col-md-6 col-lg-4 col-xl-4 mx-auto mb-md-0 mb-5">
+                <h6 class="text-uppercase font-weight-bold">SUBSCRIBE TO OUR NEWS LETTER</h6>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Email Address..."
+                        aria-label="Email Address" aria-describedby="basic-addon2"
+                        style="color: #ffffff; background-color: #002c5c;">
+                    <div class="input-group-append">
+                        <span class="input-group-text text-white" id="basic-addon2"
+                            style="background: #00c851;"><b>Submit</b></span>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div>
-            <p class="footer2">&copy 2020 Derine Salanza Hotel</p>
-            <p class="footer2"> <a href="#">Terms</a> </p>
-            <p class="footer2"><a href="">Privacy</a></p>
-            <p class="footer2">English</p>
+
+    </div>
+
+    
+    <div style="background-color: #002c5c;">
+        <div class="container">
+            <div class="row py-4 d-flex align-items-center text-white">
+                <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                    <p class="mb-0">
+                        © 2020 Derine Salanza Hotel &nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="#" style="color: white;">Terms</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="#" style="color: white;">Privacy</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="#" style="color: white;"><b>English</b></a>
+                    </p>
+                </div>
+
+                <div class="col-md-6 col-lg-7 text-center text-md-right">
+                    <a class="fb-ic"> <i class="fab fa-facebook-f white-text mr-1"> </i> </a>
+                    <a class="tw-ic"> <i class="fab fa-twitter white-text mr-1"> </i> </a>
+                    <a class="li-ic"> <i class="fab fa-linkedin-in white-text mr-1"> </i> </a>
+                    <a class="pinterest-ic"> <i class="fab fa-pinterest white-text mr-1"> </i> </a>
+                    <a class="ins-ic"> <i class="fab fa-instagram white-text mr-5"> </i> </a>
+                </div>
+            </div>
         </div>
+    </div>
 
-        <div class="" style="background-color:black;">
-            <a href=""><img src="icons/Icon awesome-facebook-f.png" alt="facebook"></a>
-            <a href="#"><img src="icons/Icon awesome-instagram.png" alt="instagram"></a>
-            <a href="#"><img src="icons/Icon awesome-linkedin-in.png" alt="linkedin"></a>
-            <a href="#"><img src="icons/Icon awesome-pinterest-p" alt="pintrest"></a>
-        </div>
-    </footer>
+</footer>
 
 
 
-</body>
-
+  </body>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </html>
