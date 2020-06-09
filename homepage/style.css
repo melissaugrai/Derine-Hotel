@@ -1,0 +1,164 @@
+/* -- basic styles ----*/
+body {
+    margin: 0 20px;
+    font-family: open sans, san serif;
+}
+
+/* --- welcome styles ----*/
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.flex-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.welcome-img {
+    width: 100%;
+    align-self: center;
+    max-width: 600px;
+
+}
+
+/* --- 4 column styles ----*/
+
+.picturescenter {
+    width: 100%;
+}
+
+.words-container {
+    background-color: #006075;
+    color: white;
+    width: 100%;
+}
+
+.btn {
+    background-color: #F2F2F2;
+    border-radius: 2px;
+    color: #006075;
+    font-weight: bold;
+}
+
+a {
+    color: #006075;
+}
+
+/* --- quote styles ----*/
+
+#quote {
+    background-image: url(./images/bottom-bground.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+
+#quote h4 {
+    font-size: 28px;
+}
+
+#quote p {
+    font-size: 1em;
+}
+
+/* --- tag styles ----*/
+.twittertag {
+    background-color: #002C5C;
+    color: white;
+}
+
+.twittertag h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+
+@media (min-width: 640px) {
+
+    body {
+        margin: 0 60px;
+    }
+
+    .flex-container {
+        flex-flow: row nowrap;
+    }
+
+    .flex-items {
+        font-size: 18px;
+        align-items: self-start;
+    }
+
+    .welcome-img {
+        ;
+        min-width: 375px;
+    }
+
+    .flex-container h1 {
+        width: 70%;
+        font-size: 24px
+    }
+
+    .flex-container p {
+        width: 70%;
+        font-size: 16px;
+    }
+
+    .picturescenter {
+        min-width: 460px;
+    }
+
+    .words-container {
+        min-width: 365px;
+    }
+
+    /* --- quote styles ----*/
+    #quote {
+        padding: 0;
+        margin: 0;
+        height: 300px;
+    }
+
+    #quote .flex-items {
+        margin: 20px;
+        padding: 0;
+
+    }
+
+    #quote h4 {
+        font-size: 30px;
+    }
+
+    #quote p {
+        font-size: 16px;
+        width: 79%;
+        text-align: center;
+
+    }
+
+    #quote .date p {
+        font-weight: bold;
+        font-size: 16px;
+        padding-right: 20px;
+        margin: 0;
+        width: 100%;
+    }
+
+    .twittertag h2 {
+        font-size: 48px;
+
+    }
+
+
+}
