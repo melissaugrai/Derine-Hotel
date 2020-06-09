@@ -1,6 +1,13 @@
 /* -- basic styles ----*/
 body {
-    font-family: open sans,san serif;
+
+    font-family: open sans, san serif;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
 }
 
 /* --- welcome styles ----*/
@@ -10,7 +17,7 @@ body {
     flex-direction: column;
     width: 100%;
     align-items: center;
-    padding: 0 0 15px 0;
+    padding-bottom: 15px;
 
 }
 
@@ -22,9 +29,10 @@ body {
 }
 
 .welcome-img {
-    align-self: center;
-
     width: 100%;
+    align-self: center;
+    max-width: 600px;
+
 }
 
 /* --- 4 column styles ----*/
@@ -60,6 +68,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: end;
+    justify-content: space-between;
 }
 
 
@@ -84,25 +93,19 @@ a {
 
 
 @media (min-width: 640px) {
-  
-    body {
-        margin: 0 50px;
-        width: 100%;
-    }
+
 
     .flex-container {
         flex-direction: row;
-        width: 100%;
     }
 
     .flex-items {
-        font-size: 18px;
         align-items: self-start;
+        flex: 1;
     }
 
     .welcome-img {
-        ;
-    width: 200%;
+        flex: 1;
     }
 
     .flex-container h1 {
@@ -116,28 +119,23 @@ a {
     }
 
     .picturescenter {
-        min-width: 460px;
+        flex: 1;
     }
 
     .words-container {
-        min-width: 365px;
+        flex: 1;
+        align-self: stretch;
     }
+
 
     /* --- quote styles ----*/
     #quote {
-        padding: 0;
-        margin: auto;
-        height: 300px;
-    }
-    
-    #quote flex-container {
-        margin: 0;
+        min-height: 300px;
     }
 
     #quote .flex-items {
         margin: 20px;
         padding: 0;
-
     }
 
     #quote h4 {
@@ -161,6 +159,7 @@ a {
 
     .twittertag h2 {
         font-size: 48px;
+
     }
 
 
