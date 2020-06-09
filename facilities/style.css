@@ -13,16 +13,18 @@ img {
 }
 
 h1 {
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
+    ;
     font-weight: bold;
-    color:  #002C5C;
+    color: #002C5C;
     font-size: 100px;
 }
 
-h3{
-    font-family: 'Open Sans', sans-serif;;
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    ;
     font-weight: bold;
-    color:  white;
+    color: white;
     font-size: 30px;
 }
 
@@ -84,7 +86,7 @@ h3{
 }
 
 .cardx {
-    padding: 2% 5% 0 5% ;
+    padding: 2% 5% 0 5%;
 }
 
 .container-fluid {
@@ -98,16 +100,18 @@ h3{
 
 @media only screen and (max-width: 768px) {
     h1 {
-        font-family: 'Open Sans', sans-serif;;
+        font-family: 'Open Sans', sans-serif;
+        ;
         font-weight: bold;
-        color:  #002C5C;
+        color: #002C5C;
         font-size: 50px;
     }
 
-    h3{
-        font-family: 'Open Sans', sans-serif;;
+    h3 {
+        font-family: 'Open Sans', sans-serif;
+        ;
         font-weight: bold;
-        color:  white;
+        color: white;
         font-size: 15px;
     }
 
@@ -119,39 +123,40 @@ h3{
         padding-top: 5%;
     }
 
-   #features {
-       align-content: center;
-   }
+    #features {
+        align-content: center;
+    }
 
-   img {
-    width: 347px;
-    height: 224px;
-   }
+    img {
+        width: 347px;
+        height: 224px;
+    }
 
-   .card-text {
-       font-size: small;
-   }
+    .card-text {
+        font-size: small;
+    }
 
 
 
 }
 
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 375px) {
 
     h1 {
         font-family: 'Open Sans', sans-serif;
         font-weight: bold;
-        color:  #002C5C;
+        color: #002C5C;
         font-size: 50px;
 
     }
 
 
-    h3{
-        font-family: 'Open Sans', sans-serif;;
+    h3 {
+        font-family: 'Open Sans', sans-serif;
+        ;
         font-weight: bold;
-        color:  white;
+        color: white;
         font-size: 15px;
     }
 
@@ -160,10 +165,10 @@ h3{
         align-content: center;
     }
 
- 
+
     img {
-     width: 300px;
-     height: 200px;
+        width: 300px;
+        height: 200px;
     }
 
     .card-text {
@@ -174,32 +179,32 @@ h3{
 
 @media only screen and (max-width: 320px) {
     h1 {
-        font-family: 'Open Sans', sans-serif;;
+        font-family: 'Open Sans', sans-serif;
+        ;
         font-weight: bold;
-        color:  #002C5C;
+        color: #002C5C;
         font-size: 50px;
     }
 
-    h3{
-        font-family: 'Open Sans', sans-serif;;
+    h3 {
+        font-family: 'Open Sans', sans-serif;
+        ;
         font-weight: bold;
-        color:  white;
+        color: white;
         font-size: 15px;
     }
-    
+
     #features {
         align-content: center;
     }
- 
+
     img {
-     width: 300px;
-     height: 200px;
+        width: 300px;
+        height: 200px;
     }
 
-    .card-text{
+    .card-text {
         font-size: small;
     }
 
 }
-
-
