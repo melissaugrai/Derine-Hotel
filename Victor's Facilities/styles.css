@@ -1,0 +1,145 @@
+body {
+  font-family: "Open Sans";
+}
+
+.facilities{
+  margin-bottom: 15px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: #002C5C;
+}
+
+.parent-div {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.parent-text {
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 50px;
+  /* margin-top: 70px; */
+}
+
+.top-paragraph {
+  font-size: 15px;
+}
+
+.top-paragraph-text {
+  padding-bottom: 20px;
+}
+
+.row {
+  margin-bottom: 70px;
+}
+
+.gen-div {
+  max-width: 45%;
+  padding: 0;
+}
+
+.back1 {
+  background-color: teal;
+  margin-right: 5%;
+}
+
+.back2 {
+  background-color: #002C5C;
+  margin-left: 5%;
+}
+
+.back3 {
+  background-color: #002C5C;
+  margin-right: 5%;
+}
+
+.back4 {
+  background-color: teal;
+  margin-left: 5%;
+}
+
+.back5 {
+  background-color: teal;
+  margin-right: 5%;
+}
+
+.back6 {
+  background-color: #002C5C;
+  margin-left: 5%;
+}
+
+.image1 {
+  height: 250px;
+}
+
+.text-div {
+  color: white;
+  padding-left: 34px;
+  padding-top: 28px;
+  padding-right: 29px;
+  margin-bottom: 82px;
+}
+
+.individual-facility-name {
+  font-weight: bold;
+}
+
+
+/* laptop : 1200 * 264
+tablet: 880 * 264
+phone:  */
+
+@media (max-width:1100px) {
+ .parent-div {
+   padding-left: 10%;
+   padding-right: 10%;
+ }
+}
+
+@media (max-width: 900px ) {
+  .col-md-12 {
+    margin-bottom: 40px;
+  }
+
+  .text-div {
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .gen-div {
+    max-width: 100%;
+    /* padding-left: 10%;
+    padding-right: 10%; */
+    text-align: center;
+  }
+
+  .row {
+    margin-bottom: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .back1 {
+    margin-right: 0;
+  }
+
+  .back2 {
+    margin-left: 0;
+  }
+
+  .back3 {
+    margin-right: 0;
+  }
+
+  .back4 {
+    margin-left: 0;
+  }
+
+  .back5 {
+    margin-right: 0;
+  }
+
+  .back6 {
+    margin-left: 0;
+  }
+}
